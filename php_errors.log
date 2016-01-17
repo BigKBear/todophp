@@ -399,3 +399,6 @@
 [17-Jan-2016 21:35:29 UTC] PHP Stack trace:
 [17-Jan-2016 21:35:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
 [17-Jan-2016 21:35:29 UTC] PHP   2. LoginController::index() /home/ubuntu/workspace/Views/login.php:21
+[17-Jan-2016 22:03:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Views/login.php on line 8
+[17-Jan-2016 22:03:12 UTC] PHP Stack trace:
+[17-Jan-2016 22:03:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0

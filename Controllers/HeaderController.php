@@ -1,4 +1,5 @@
 <?php
+//TODO: get the menue items from the configuration
 class HeaderController {
   public function index() {
     //checks the URL if it is the index page

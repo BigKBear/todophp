@@ -4,7 +4,11 @@ require '../Service/CookieService.php';
 require '../Controllers/LoginController.php';
 
 include '../Views/header.php';
-var_dump($users);
+//The below is being used to see all current valid users
+foreach($users as $user) {
+echo $user['username'].' '.$user['password'].'<br>' ; 
+    
+}
 
 //TODO:: use the below ip address in a white list area
 //var_dump($_SERVER['REMOTE_ADDR']);

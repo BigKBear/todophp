@@ -9,6 +9,7 @@
     <title>ToDo App</title>
 </head>
 
+<!-- TODO:: add the menue items from the Header controller-->
 <body>
     <h2 id="feature_body">Welcome </h2>
     <br>
