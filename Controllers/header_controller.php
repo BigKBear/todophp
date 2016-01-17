@@ -10,8 +10,8 @@ class HeaderController{
   }
   public function logout(){
     if($_GET['logout']==true){
-      session_service::clear_session();
-      header("Location: ../../Views/login.php");
+      CookieService::clear_all_cookies();
+      header("Location: login.php");
     }
     else{
       return;

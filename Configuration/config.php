@@ -1,6 +1,6 @@
 <?php
 
-$url='';
+$url=$_SERVER['REQUEST_URI'];
 $path_to_root = __DIR__.'/../';
 
 $ipwhitelist = array(

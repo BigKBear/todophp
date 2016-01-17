@@ -1,11 +1,11 @@
 <?php
 
-require 'Service/SessionService.php';
+require 'Service/CookieService.php';
 
 include 'Views/header.php';
 session_start();
 
-if (!(isset($_SESSION['login']) && $_SESSION['login'] != '')) {
+if (!(isset($_COOKIE['login']) && $_COOKIE['login'] != '')) {
     header("Location: Views/login.php");
 }
 else {
