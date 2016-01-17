@@ -12,3 +12,82 @@
 [17-Jan-2016 14:08:19 UTC] PHP Stack trace:
 [17-Jan-2016 14:08:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
 [17-Jan-2016 14:08:19 UTC] PHP   2. require() /home/ubuntu/workspace/Views/login.php:4
+[17-Jan-2016 14:39:00 UTC] PHP Fatal error:  Class 'LoginController' not found in /home/ubuntu/workspace/Views/login.php on line 25
+[17-Jan-2016 14:39:00 UTC] PHP Stack trace:
+[17-Jan-2016 14:39:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 14:45:32 UTC] PHP Warning:  require(/Controllers/header_controller): failed to open stream: No such file or directory in /home/ubuntu/workspace/Views/header.php on line 3
+[17-Jan-2016 14:45:32 UTC] PHP Stack trace:
+[17-Jan-2016 14:45:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/index.php:0
+[17-Jan-2016 14:45:32 UTC] PHP   2. include() /home/ubuntu/workspace/Views/index.php:2
+[17-Jan-2016 14:45:32 UTC] PHP Fatal error:  require(): Failed opening required '/Controllers/header_controller' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Views/header.php on line 3
+[17-Jan-2016 14:45:32 UTC] PHP Stack trace:
+[17-Jan-2016 14:45:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/index.php:0
+[17-Jan-2016 14:45:32 UTC] PHP   2. include() /home/ubuntu/workspace/Views/index.php:2
+[17-Jan-2016 15:11:33 UTC] PHP Warning:  require(../Service/session_service.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Views/login.php on line 4
+[17-Jan-2016 15:11:33 UTC] PHP Stack trace:
+[17-Jan-2016 15:11:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:11:33 UTC] PHP Fatal error:  require(): Failed opening required '../Service/session_service.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Views/login.php on line 4
+[17-Jan-2016 15:11:33 UTC] PHP Stack trace:
+[17-Jan-2016 15:11:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:48:03 UTC] PHP Fatal error:  Class 'LoginController' not found in /home/ubuntu/workspace/Views/login.php on line 6
+[17-Jan-2016 15:48:03 UTC] PHP Stack trace:
+[17-Jan-2016 15:48:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:48:38 UTC] PHP Warning:  require(Controllers/login_controller.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Views/login.php on line 5
+[17-Jan-2016 15:48:38 UTC] PHP Stack trace:
+[17-Jan-2016 15:48:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:48:38 UTC] PHP Fatal error:  require(): Failed opening required 'Controllers/login_controller.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Views/login.php on line 5
+[17-Jan-2016 15:48:38 UTC] PHP Stack trace:
+[17-Jan-2016 15:48:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:48:47 UTC] PHP Fatal error:  Class 'LoginController' not found in /home/ubuntu/workspace/Views/login.php on line 6
+[17-Jan-2016 15:48:47 UTC] PHP Stack trace:
+[17-Jan-2016 15:48:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:49:24 UTC] PHP Warning:  require(../../Controllers/login_controller.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Views/login.php on line 5
+[17-Jan-2016 15:49:24 UTC] PHP Stack trace:
+[17-Jan-2016 15:49:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:49:24 UTC] PHP Fatal error:  require(): Failed opening required '../../Controllers/login_controller.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Views/login.php on line 5
+[17-Jan-2016 15:49:24 UTC] PHP Stack trace:
+[17-Jan-2016 15:49:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:52:43 UTC] PHP Warning:  require(Service/SessionService.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Views/login.php on line 4
+[17-Jan-2016 15:52:43 UTC] PHP Stack trace:
+[17-Jan-2016 15:52:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:52:43 UTC] PHP Fatal error:  require(): Failed opening required 'Service/SessionService.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Views/login.php on line 4
+[17-Jan-2016 15:52:43 UTC] PHP Stack trace:
+[17-Jan-2016 15:52:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:52:55 UTC] PHP Warning:  include(Views/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Views/login.php on line 6
+[17-Jan-2016 15:52:55 UTC] PHP Stack trace:
+[17-Jan-2016 15:52:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:52:55 UTC] PHP Warning:  include(): Failed opening 'Views/header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Views/login.php on line 6
+[17-Jan-2016 15:52:55 UTC] PHP Stack trace:
+[17-Jan-2016 15:52:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:53:05 UTC] PHP Warning:  require(Controllers/header_controller.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Views/header.php on line 2
+[17-Jan-2016 15:53:05 UTC] PHP Stack trace:
+[17-Jan-2016 15:53:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:53:05 UTC] PHP   2. include() /home/ubuntu/workspace/Views/login.php:6
+[17-Jan-2016 15:53:05 UTC] PHP Fatal error:  require(): Failed opening required 'Controllers/header_controller.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Views/header.php on line 2
+[17-Jan-2016 15:53:05 UTC] PHP Stack trace:
+[17-Jan-2016 15:53:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:53:05 UTC] PHP   2. include() /home/ubuntu/workspace/Views/login.php:6
+[17-Jan-2016 15:57:44 UTC] PHP Fatal error:  Class 'LoginController' not found in /home/ubuntu/workspace/Views/login.php on line 18
+[17-Jan-2016 15:57:44 UTC] PHP Stack trace:
+[17-Jan-2016 15:57:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:58:02 UTC] PHP Fatal error:  Class 'LoginController' not found in /home/ubuntu/workspace/Views/login.php on line 18
+[17-Jan-2016 15:58:02 UTC] PHP Stack trace:
+[17-Jan-2016 15:58:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 15:58:09 UTC] PHP Fatal error:  Class 'LoginController' not found in /home/ubuntu/workspace/Views/login.php on line 18
+[17-Jan-2016 15:58:09 UTC] PHP Stack trace:
+[17-Jan-2016 15:58:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 16:05:35 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/Controllers/login_controller.php on line 27
+[17-Jan-2016 16:08:11 UTC] PHP Warning:  require(Service/SessionService.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Views/login.php on line 4
+[17-Jan-2016 16:08:11 UTC] PHP Stack trace:
+[17-Jan-2016 16:08:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 16:08:11 UTC] PHP Fatal error:  require(): Failed opening required 'Service/SessionService.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Views/login.php on line 4
+[17-Jan-2016 16:08:11 UTC] PHP Stack trace:
+[17-Jan-2016 16:08:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 16:08:29 UTC] PHP Warning:  require(Controllers/header_controller.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Views/header.php on line 2
+[17-Jan-2016 16:08:29 UTC] PHP Stack trace:
+[17-Jan-2016 16:08:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 16:08:29 UTC] PHP   2. include() /home/ubuntu/workspace/Views/login.php:6
+[17-Jan-2016 16:08:29 UTC] PHP Fatal error:  require(): Failed opening required 'Controllers/header_controller.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Views/header.php on line 2
+[17-Jan-2016 16:08:29 UTC] PHP Stack trace:
+[17-Jan-2016 16:08:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 16:08:29 UTC] PHP   2. include() /home/ubuntu/workspace/Views/login.php:6

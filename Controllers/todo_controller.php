@@ -1,9 +1,10 @@
 <?php
+require '../Service/TodoService';
     class TodoController{
         public function stripe_todo(){
             
         }
-        public function add_todo(){
+        public function add_todo($_GET['newtodo']){
             
         }
         public function delete_todo_from_list(){
