@@ -2,11 +2,11 @@
 
 require '../Configuration/config.php';
 require '../Service/SessionService.php';
+require '../Controllers/login_controller.php';
 
 include '../Views/header.php';
 session_start();
 
-require '../Controllers/login_controller.php';
 
 //TODO:: use the below ip address in a white list area
 //var_dump($_SERVER['REMOTE_ADDR']);

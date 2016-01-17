@@ -1,5 +1,4 @@
 <?php
-require 'Configuration/config.php';
 require 'Service/SessionService.php';
 
 include 'Views/header.php';

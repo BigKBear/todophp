@@ -1,5 +1,7 @@
 <?php
     require '../Controllers/header_controller.php';
+    require '../Configuration/config.php';
+    
     HeaderController::index();
 ?>
 <html> 
