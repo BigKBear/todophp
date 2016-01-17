@@ -1,12 +1,13 @@
 <?php 
     require '../Controllers/todo_controller.php';
     require '../Service/TodoService.php';
+    require '../Service/CookieService.php';
     
     include '../Views/header.php';
 
     TodoController::list_all_todos($_COOKIE['todolist']);
 ?>
-<legend align="center">TODO list</legend>
+<legend align="center"><?php CookieService::get_name(); ?> TODO list</legend>
 <form name="todo_form" method="POST" action="home.php">
     <br>
     <label class="textinput" for="todo_item">

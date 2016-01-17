@@ -27,10 +27,10 @@
         }
         
         public function get_name(){
-           return $_COOKIE['username'];
+           echo $_COOKIE['username'];
         }
         
-        public function get_password(){
+        private function get_password(){
           return $_COOKIE['pass'];
         }
     }
