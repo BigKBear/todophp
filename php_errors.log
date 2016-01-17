@@ -1,0 +1,6 @@
+[17-Jan-2016 12:55:05 UTC] PHP Warning:  require(Configuration/config.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Views/login.php on line 3
+[17-Jan-2016 12:55:05 UTC] PHP Stack trace:
+[17-Jan-2016 12:55:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 12:55:05 UTC] PHP Fatal error:  require(): Failed opening required 'Configuration/config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Views/login.php on line 3
+[17-Jan-2016 12:55:05 UTC] PHP Stack trace:
+[17-Jan-2016 12:55:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0

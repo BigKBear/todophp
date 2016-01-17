@@ -10,7 +10,7 @@
         }
         
         private function set_password($pass){
-           return $_SESSION["pass"]= $pass;
+           return  $_SESSION["pass"]= $pass;
         }
         
         public function clear_session(){
@@ -23,7 +23,7 @@
         }
         
         public function get_name(){
-           return $this -> username;
+           return $username;
         }
         
         public function get_password(){

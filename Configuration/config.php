@@ -7,6 +7,5 @@ $ipwhitelist = array(
     ''
     );
     
-//require 'Service/session_service.php';
 
 ?>
