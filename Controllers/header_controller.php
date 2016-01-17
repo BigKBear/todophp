@@ -9,8 +9,13 @@ class HeaderController{
     }
   }
   public function logout(){
+    if($_GET['logout']==true){
       session_service::clear_session();
-      header("Location: Views/login.php");
+      header("Location: ../../Views/login.php");
+    }
+    else{
+      return;
+    }
   }
 }
 ?>

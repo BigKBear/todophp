@@ -1,3 +1,3 @@
 <?php 
-    echo 'Welcome'.$_COOKIE['user_name'];
+    include '../Views/header.php';
 ?>

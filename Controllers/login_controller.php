@@ -8,7 +8,9 @@ class LoginController{
         else {
             if (isset($_POST['submit'])) {
                 $user = new session_service($_POST['user'], $_POST['pass']);
+                if(($_POST['user']=='admin')&&($_POST['pass']=='kyle')){
                 header("Location: home.php");
+                }
             }
         }
     }
