@@ -91,3 +91,12 @@
 [17-Jan-2016 16:08:29 UTC] PHP Stack trace:
 [17-Jan-2016 16:08:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
 [17-Jan-2016 16:08:29 UTC] PHP   2. include() /home/ubuntu/workspace/Views/login.php:6
+[17-Jan-2016 16:30:22 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/ubuntu/workspace/Controllers/login_controller.php on line 28
+[17-Jan-2016 16:30:22 UTC] PHP Stack trace:
+[17-Jan-2016 16:30:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 16:31:08 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/ubuntu/workspace/Controllers/login_controller.php on line 28
+[17-Jan-2016 16:31:08 UTC] PHP Stack trace:
+[17-Jan-2016 16:31:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 16:31:12 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/ubuntu/workspace/Controllers/login_controller.php on line 28
+[17-Jan-2016 16:31:12 UTC] PHP Stack trace:
+[17-Jan-2016 16:31:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0

@@ -4,8 +4,8 @@ require '../Service/TodoService';
         public function stripe_todo(){
             
         }
-        public function add_todo($_GET['newtodo']){
-            
+        public function add_todo($newtodo){
+            $_COOKIE['todolist'][]=$newtodo;
         }
         public function delete_todo_from_list(){
             
