@@ -4,6 +4,7 @@ require '../Service/CookieService.php';
 require '../Controllers/LoginController.php';
 
 include '../Views/header.php';
+var_dump($users);
 
 //TODO:: use the below ip address in a white list area
 //var_dump($_SERVER['REMOTE_ADDR']);
@@ -18,7 +19,7 @@ include '../Views/header.php';
         <h2> Login Page</h2>
         <fieldset style="width:26%">
             <legend align="center">LOG-IN HERE</legend>
-            <form name="login_form" method="POST" action="<?php LoginController::index(); ?>">
+            <form name="login_form" method="POST" action="<?php LoginController::index($users); ?>">
                 <br>
                 <label class="textinput" for="user_name">
                     <input placeholder="Username" id="user_name" type="text" name="user" size="30">

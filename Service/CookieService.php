@@ -30,14 +30,12 @@
             return $_COOKIE['login'];
         }
         
-        public function clear_all_cookies_and_session(){
+        public function clear_all_cookies(){
             unset($_COOKIE);
         }
         
         public function clear_cookie_value($name,$value){
             unset($_COOKIE[$name][$value]);
         }
-        
-        
     }
 ?>

@@ -16,6 +16,10 @@ $users= array(
     'normal' => array(
         'username' => 'normal',
         'password' => 'normal',
+        ),
+    'super' => array(
+        'username' => 'super',
+        'password' => 'man',
         )
     );
 ?>

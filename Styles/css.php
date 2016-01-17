@@ -5,5 +5,6 @@
  
  .strikethrough:checked + label {
     text-decoration:line-through;
+    color:red;
 }
 </style>

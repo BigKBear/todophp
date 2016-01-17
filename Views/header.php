@@ -19,13 +19,8 @@
         <a href="login.php">
             <?php echo $_COOKIE[ 'main_menu'][1];?>
         </a>
-    <div class="col-md-5">
-		<div class="checkbox">
-          <input name="packersOff" class="strikethrough" value="1" type="checkbox">
-          <label for="packersOff"><?php echo $_COOKIE[ 'main_menu'][2];?></label>
-        </div>
-     </div>
-
-        
-        
+        <input name="packersOff" class="strikethrough" value="1" type="checkbox">
+        <label for="packersOff">
+            <?php echo $_COOKIE[ 'main_menu'][2];?>
+        </label>
     </div>
