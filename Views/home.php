@@ -20,7 +20,9 @@
 
 <?php 
     if(isset($_POST['add_todo'])){
-        $todo_object = new Todo($_POST['todo_item']);
+        
+       // $todo_object = new Todo($_POST['todo_item']);
+      //  var_dump($todo_object);
         TodoController::add_todo($_POST['todo_item']);
     }
 ?>

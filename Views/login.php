@@ -4,8 +4,6 @@ require '../Service/CookieService.php';
 require '../Controllers/login_controller.php';
 
 include '../Views/header.php';
-session_start();
-
 
 //TODO:: use the below ip address in a white list area
 //var_dump($_SERVER['REMOTE_ADDR']);

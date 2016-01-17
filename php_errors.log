@@ -211,3 +211,25 @@
 [17-Jan-2016 20:08:21 UTC] PHP Fatal error:  Class 'CookieService' not found in /home/ubuntu/workspace/Views/home.php on line 9
 [17-Jan-2016 20:08:21 UTC] PHP Stack trace:
 [17-Jan-2016 20:08:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/home.php:0
+[17-Jan-2016 20:22:26 UTC] PHP Fatal error:  Cannot redeclare class Todo in /home/ubuntu/workspace/Service/TodoService.php on line 2
+[17-Jan-2016 20:22:26 UTC] PHP Stack trace:
+[17-Jan-2016 20:22:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/home.php:0
+[17-Jan-2016 20:22:39 UTC] PHP Warning:  require(Service/TodoService.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Controllers/todo_controller.php on line 2
+[17-Jan-2016 20:22:39 UTC] PHP Stack trace:
+[17-Jan-2016 20:22:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/home.php:0
+[17-Jan-2016 20:22:39 UTC] PHP   2. require() /home/ubuntu/workspace/Views/home.php:2
+[17-Jan-2016 20:22:39 UTC] PHP Fatal error:  require(): Failed opening required 'Service/TodoService.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Controllers/todo_controller.php on line 2
+[17-Jan-2016 20:22:39 UTC] PHP Stack trace:
+[17-Jan-2016 20:22:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/home.php:0
+[17-Jan-2016 20:22:39 UTC] PHP   2. require() /home/ubuntu/workspace/Views/home.php:2
+[17-Jan-2016 20:22:45 UTC] PHP Warning:  require(Service/TodoService.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Controllers/todo_controller.php on line 2
+[17-Jan-2016 20:22:45 UTC] PHP Stack trace:
+[17-Jan-2016 20:22:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/home.php:0
+[17-Jan-2016 20:22:45 UTC] PHP   2. require() /home/ubuntu/workspace/Views/home.php:2
+[17-Jan-2016 20:22:45 UTC] PHP Fatal error:  require(): Failed opening required 'Service/TodoService.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Controllers/todo_controller.php on line 2
+[17-Jan-2016 20:22:45 UTC] PHP Stack trace:
+[17-Jan-2016 20:22:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/home.php:0
+[17-Jan-2016 20:22:45 UTC] PHP   2. require() /home/ubuntu/workspace/Views/home.php:2
+[17-Jan-2016 20:22:49 UTC] PHP Fatal error:  Cannot redeclare class Todo in /home/ubuntu/workspace/Service/TodoService.php on line 2
+[17-Jan-2016 20:22:49 UTC] PHP Stack trace:
+[17-Jan-2016 20:22:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/home.php:0

@@ -6,12 +6,12 @@
         var $stripe;
         
         function __construct($name){
-            $name=$name;
-            $isDone=0;
-            $stripe=0;
+            $this ->name=$name;
+            $this ->isDone=0;
+            $this ->stripe=0;
         }
         public function get_todo_name(){
-            
+            return $this -> name;
         }
         
         public function set_todo_name($name){
@@ -19,7 +19,7 @@
         }
         
         public function get_todo_is_done(){
-             
+             return $this -> isDone;
         }
         
         public function set_todo_is_done($done_status){
@@ -27,7 +27,7 @@
         }
         
         public function get_todo_stripe_status(){
-             
+             return $this -> stripe;
         }
         
         public function set_todo_stripe_status($stripe_status){
