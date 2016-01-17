@@ -18,6 +18,19 @@
             setcookie("login", $status);
         }
         
+        public function get_name(){
+           return $_COOKIE['username'];
+        }
+        
+        private function get_password(){
+            return $_COOKIE['pass'];
+        }
+        
+        public function get_login_status(){
+            return $_COOKIE['login'];
+        }
+        
+        
         public function clear_all_cookies(){
             unset($_COOKIE);
         }
@@ -26,12 +39,6 @@
             unset($_COOKIE[$name][$value]);
         }
         
-        public function get_name(){
-           echo $_COOKIE['username'];
-        }
         
-        private function get_password(){
-          return $_COOKIE['pass'];
-        }
     }
 ?>

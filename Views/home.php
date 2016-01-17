@@ -7,7 +7,7 @@
 
     TodoController::list_all_todos($_COOKIE['todolist']);
 ?>
-<legend align="center"><?php CookieService::get_name(); ?> TODO list</legend>
+<legend align="center"><?php echo CookieService::get_name(); ?> TODO list</legend>
 <form name="todo_form" method="POST" action="home.php">
     <br>
     <label class="textinput" for="todo_item">
