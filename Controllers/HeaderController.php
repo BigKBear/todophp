@@ -10,19 +10,5 @@ class HeaderController {
       $_COOKIE['main_menu'] = array('Home', 'Logout','Status 1');
     }
   }
-
-  public function logout() {
-    if ($_GET['logout']) {
-      CookieService::clear_all_cookies();
-      header("Location: login.php");
-    }
-    else {
-      return;
-    }
-  }
-
-  public function displayheader() {
-    include 'Views/header.php';
-  }
 }
 ?>

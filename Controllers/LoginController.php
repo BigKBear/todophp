@@ -17,6 +17,22 @@ class LoginController {
             }
 
         }
+         if ($_GET['logout']) {
+            CookieService::clear_all_cookies();
+            header("Location: login.php");
+        }else {
+            return;
+        }
     }
+    
+    public function logout() {
+    if ($_GET['logout']) {
+      CookieService::clear_all_cookies();
+      header("Location: login.php");
+    }
+    else {
+      return;
+    }
+  }
 }
 ?>

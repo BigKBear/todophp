@@ -31,7 +31,11 @@
         }
         
         public function clear_all_cookies(){
-            unset($_COOKIE);
+            //TODO:: find out why the below did not remove all cookies
+           //unset($_COOKIE);
+            setcookie("username", "", time() - 3600);
+            setcookie("pass", "", time() - 3600);
+            setcookie("login", "", time() - 3600);
         }
         
         public function clear_cookie_value($name,$value){
