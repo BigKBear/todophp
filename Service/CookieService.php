@@ -30,8 +30,7 @@
             return $_COOKIE['login'];
         }
         
-        
-        public function clear_all_cookies(){
+        public function clear_all_cookies_and_session(){
             unset($_COOKIE);
         }
         

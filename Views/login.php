@@ -1,7 +1,7 @@
 <?php
 require '../Configuration/config.php';
 require '../Service/CookieService.php';
-require '../Controllers/login_controller.php';
+require '../Controllers/LoginController.php';
 
 include '../Views/header.php';
 
