@@ -20,7 +20,6 @@
         
         public function clear_all_cookies(){
             unset($_COOKIE);
-            //session_unset();
         }
         
         public function clear_cookie_value($name,$value){

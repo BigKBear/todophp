@@ -1,5 +1,4 @@
 <?php
-
 require '../Configuration/config.php';
 require '../Service/CookieService.php';
 require '../Controllers/login_controller.php';
