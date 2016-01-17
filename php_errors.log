@@ -4,3 +4,11 @@
 [17-Jan-2016 12:55:05 UTC] PHP Fatal error:  require(): Failed opening required 'Configuration/config.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Views/login.php on line 3
 [17-Jan-2016 12:55:05 UTC] PHP Stack trace:
 [17-Jan-2016 12:55:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 14:08:19 UTC] PHP Warning:  require(Service/session_service.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Controllers/header_controller.php on line 2
+[17-Jan-2016 14:08:19 UTC] PHP Stack trace:
+[17-Jan-2016 14:08:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 14:08:19 UTC] PHP   2. require() /home/ubuntu/workspace/Views/login.php:4
+[17-Jan-2016 14:08:19 UTC] PHP Fatal error:  require(): Failed opening required 'Service/session_service.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Controllers/header_controller.php on line 2
+[17-Jan-2016 14:08:19 UTC] PHP Stack trace:
+[17-Jan-2016 14:08:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Views/login.php:0
+[17-Jan-2016 14:08:19 UTC] PHP   2. require() /home/ubuntu/workspace/Views/login.php:4

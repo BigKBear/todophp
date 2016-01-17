@@ -1,7 +1,6 @@
 <?php
 
 require '../Configuration/config.php';
-require '../Controllers/header_controller.php';
 require '../Service/session_service.php';
 require '../Controllers/login_controller.php';
 ?>
