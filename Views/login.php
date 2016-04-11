@@ -6,7 +6,7 @@ require '../Controllers/LoginController.php';
 include '../Views/header.php';
 //The below is being used to see all current valid users
 foreach($users as $user) {
-echo $user['username'].' '.$user['password'].'<br>' ; 
+echo 'Username:'.$user['username'].' Password: '.$user['password'].'<br>' ; 
     
 }
 
